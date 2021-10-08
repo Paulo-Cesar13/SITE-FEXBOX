@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 990px;
+    height: 100px;
+    background: red;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+.logo img{
+    width: 90px;
+    padding: 5px;
+}
+
+.menu-desktop{
+    display: flex;
+    background-color: rosybrown;
+}
+
+nav ul, li{
+    list-style: none;
+    text-decoration: none;
+}
